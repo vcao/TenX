@@ -1,0 +1,42 @@
+.share {
+	color: #01AAFF;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?kphon');
+  src:  url('fonts/icomoon.eot?kphon#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?kphon') format('truetype'),
+    url('fonts/icomoon.woff?kphon') format('woff'),
+    url('fonts/icomoon.svg?kphon#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-share:before {
+  content: "\ea7d";
+}
+
+li.tab.iconTop.share:before, button.iconTop.share:before, a.button.iconTop.share:before {
+	background-image: url("/fonts/share.svg") !important;
+	fill: #08C;
+
+  &:hover {
+    fill: #32b8ff;
+  }
+}
