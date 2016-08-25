@@ -1,0 +1,37 @@
+@import 'settings';
+@import 'foundation-emails';
+
+.borderTop {
+	border-top: 1px solid #03A1FC;
+}
+
+.noPad {
+	padding: 0 !important;
+}
+
+.red {
+	color: red;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+}
+
+h5 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+ul {
+	list-style-type: square;
+}
+
+.address {
+	color: #666666;
+	font-size: 20px;
+}
+
+*, body, html {
+	hyphens: none;
+}
